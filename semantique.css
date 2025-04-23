@@ -1,0 +1,236 @@
+.container{
+    display: flex;
+    position: relative;
+    left: 380px;
+    height: 40vh;
+    width: 60vw;
+    bottom: 70px;
+    text-align: center;
+}
+
+
+a{
+    text-decoration:none ;
+    color: black;
+    margin: 30px;
+    display: inline;
+}
+
+.img2{
+    width: 60vw;
+    padding: 40px;
+    position: relative;
+    right: 200px;
+}
+
+.head h3{ 
+    color: white;
+    position: absolute;
+    top: 35%;
+    right: 750px;
+    margin: 50px;
+}
+
+.head h1{
+    color: white;
+    position: absolute;
+    top: 42%;
+    right: 730px;
+    font-size: 3rem;
+}
+
+.head h2{
+    color: white;
+    position: absolute;
+    top: 53%;
+    right: 850px;
+
+}
+
+.footer-container{
+    background-color: black;
+    height:600px;
+    color: white;
+}
+
+.asside-container, img{
+    width: 10%;
+    height: 10%;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+
+button{
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+fieldset{
+    border: 1px solid black;
+}
+
+.sect4{
+    text-align: center;
+    border: 1px solid black;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.sect4 p{
+    color: grey;
+}
+
+header{
+    width: 800px;
+}
+
+.sect4, img{
+    width: 700px;
+}
+
+
+.sect5{
+    border: 1px solid black;
+    text-align: center;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.sect5 p{
+    color: grey;
+}
+
+.sect5 img{
+    width: 600px;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    bottom: 250px;
+    right: 186px;
+}
+
+.sect6{
+    border: 1px solid black;
+    text-align: center;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.sect6 p{
+    color: grey;
+}
+
+.sect7{
+    border: 1px solid black;
+    text-align: center;
+    width: 40%;
+    margin: 20px; 
+     padding: 20px; 
+}
+
+.sect7 p{
+    color: grey;
+}
+
+.asside-container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 885px;
+    right: 450px;
+    text-align: center;
+    width: 10%;
+}
+
+.asside-container img{
+    width: 280px;
+}
+
+.asside-container fieldset{
+    width: 100%;
+}
+
+.asside-container fieldset:nth-of-type(3) ul li img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 2px;
+    display: block;
+}
+
+.post-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.post-item img {
+    width: 80px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.post-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.post-title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.post-date {
+    font-size: 0.85em;
+    color: #777;
+}
+
+.follow_me img{
+    width: 50px;
+}
+
+.logo_twitter{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    width: 40px;
+}
+
+.logo_reseau img[alt="logo twitter"] {
+    width: 40px;       
+    height: auto;      
+    object-fit: contain; 
+}
+
+.logo_reseau{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.advertisement{
+    text-align: center;
+}
