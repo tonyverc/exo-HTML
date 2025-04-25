@@ -173,12 +173,6 @@ header{
     display: block;
 }
 
-.post-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    margin-bottom: 20px;
-}
 
 .post-item img {
     width: 80px;
@@ -194,6 +188,7 @@ header{
 }
 
 .post-title {
+    font-size: 12px;
     font-weight: bold;
     margin: 0;
 }
@@ -259,6 +254,8 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column; /* colonne par défaut (mobile) */
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 80px;
     background-color: #222;
     color: white;
@@ -279,6 +276,16 @@ header{
     border-radius: 50px;
 }
 
+.about-me h3 {
+    border-bottom: none; /* supprime toute bordure par défaut */
+}
+
+.bordered {
+    display: inline-block;
+    border-bottom: 1px solid grey;
+}
+
+
 /* Style pour les posts récents */
 .recent-posts ul {
     list-style: none;
@@ -287,9 +294,10 @@ header{
 
 .post-item {
     display: flex;
-    align-items: center;
+    align-items:center;
     gap: 10px;
-    margin-bottom: 15px;
+    border-bottom: 1px solid grey;
+    width: 70%;
 }
 
 .post-item img {
@@ -324,6 +332,20 @@ header{
     }
 }
 
-.poste-date hr{
-    color: white;
+.copyright{
+    white-space: nowrap;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color:white;
+    order: 4; 
+    
+}
+
+.footer-container > div {
+    flex: 1 1 30%;
+    margin-bottom: 30px;
 }
